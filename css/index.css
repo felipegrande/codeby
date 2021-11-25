@@ -20,10 +20,10 @@ h1.title{
     border: 1px solid #dcdcdc;
     box-sizing: border-box;
     border-radius: 10px;
+    width: 100%;
     max-width: 300px;
     height: auto;
-    margin: auto;
-    margin-top: 2rem;
+    margin: 2rem auto;
 }
 .products{
     display: flex;
