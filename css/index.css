@@ -1,0 +1,111 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+}
+
+.title{
+    font-size: 20px;
+    font-weight:   bold;
+    color: #000000;
+    margin: 1rem 0;
+   
+}
+.container-title{
+    border-bottom: 1px solid #dcdcdc;
+}
+h1.title{
+    text-align: center;
+}
+
+.container-cart{
+    border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+    border-radius: 10px;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 2rem;
+}
+.products{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.card-product__img{
+    border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+    margin: 10px;
+    width: 50px;
+}
+.card-product__name,
+.amount__total,
+.amount__price{
+    font-size: 14px;
+    font-weight:   bold;
+    color: #000000;
+}
+.card-product__price{
+    font-size: 14px;
+    margin-top: 3px;
+    color: #000000;
+}
+.card-product__price_old{
+    font-size: 10px;
+    margin-top: 10px;
+    color: #dcdcdc;
+}
+
+.card-product{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.card-name-price{
+    display: flex;
+    flex-direction: column;
+}
+.amount{
+    border-bottom: 1px solid #dcdcdc;
+    border-top: 1px solid #dcdcdc;
+    height: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.total-price{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.freight{
+    display: flex;
+    align-items: center;
+}
+.freight__data{
+    background-color: #05ED98;
+    color: #2d572c;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto ;
+    font-weight: bold;
+    
+}
+.buy-button-container{
+    display: flex;
+    justify-content: center;
+}
+.buy-button{
+    background-color:rgba(30,63,123,.85) ;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 12px;
+    width: 280px;
+    height: 40px;border: none;
+    border-radius: 10px;
+}
+.hide{
+    display: none;
+}
+
