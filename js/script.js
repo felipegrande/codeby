@@ -1,5 +1,5 @@
-const acima10 = 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/11b895d0-bc64-4f3a-bfa9-7c652be8d415/acima-10-reais.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211125T040032Z&X-Amz-Expires=86400&X-Amz-Signature=657179790e16d035e0d2fca349b34db1b9ed9dc45a95b613a682ee3f43ef4bce&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22acima-10-reais.json%22&x-id=GetObject';
-const abaixo10 = 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5bbd6fdd-abae-411d-96cc-1a5d76d3803b/abaixo-10-reais.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211125T012940Z&X-Amz-Expires=86400&X-Amz-Signature=462b889c4ebdf3437fb74282a62b827fcff2718d761e2c978332ed130638c773&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22abaixo-10-reais.json%22&x-id=GetObject'
+const acima10 = 'https://felipegrande.github.io/jsoncodeby/acima10.json';
+const abaixo10 = 'https://felipegrande.github.io/jsoncodeby/abaixo10.json';
 
 const urlJson = window.location.search === "?acima10" ? acima10 : abaixo10;
 
